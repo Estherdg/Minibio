@@ -1,0 +1,50 @@
+
+body{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(234, 209, 253);
+    position: relativo;
+} 
+.foto{
+    margin-top: 35px;
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+    box-shadow: 0 0 7px 5px rgba(188, 132, 253, 0.562) ;
+}
+h1{
+    color: rgb(97, 21, 151);
+    font-size: 20px;
+}
+h2{
+    color: rgb(37, 1, 63);
+    font-size: 15px;
+}
+p{
+    font-style: oblique;
+    font-size: small;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.red{
+    float: left;
+    width: 50%;
+}
+.lala{
+    clear: both;
+    overflow: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+div{
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 5px 5px rgb(186, 151, 243);
+    width: 250px;
+    /* display: inline-flex; */
+    flex-direction: column-reverse;
+    position: center;
+}
+
